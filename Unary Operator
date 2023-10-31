@@ -1,0 +1,39 @@
+package Operator;
+
+public class Unary {
+	
+	public static void main(String[] args) {
+		int a = 12;
+		System.out.println("a = "+ a);
+		a++;		
+		System.out.println("after = "+ a++);
+	} //pre increment
+	
+	{	
+		int b = 19;
+		System.out.println("b = "+b);
+		++b;
+		System.out.println("after = "+b);
+	}//post increment
+	
+	{
+	int c = 10;
+		System.out.println("c = "+c);
+		c--;
+		System.out.println("after = "+c);
+	}//pre decrement
+	
+	{
+	int d = 11;
+		System.out.println("d = "+d);
+		--d;
+		System.out.println("after = "+d);
+	}//post decrement
+	
+	{
+		boolean bb = true;
+		System.out.println(bb);
+		
+	}//negation
+		
+}
