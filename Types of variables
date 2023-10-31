@@ -1,0 +1,29 @@
+package Variable;
+
+public class Typesofvariable 
+{
+
+	static String studentName; //static variable
+	
+	int rollNumber=1; //non static
+
+	
+	public static void Variable() 
+	{
+		int age; //local 
+		age = 21;
+		System.out.println("Print age"+" " +age);
+	
+	}
+	
+	public static void main(String[] args)
+	{
+		Typesofvariable.studentName = "Namrata";
+		System.out.println(Typesofvariable.studentName);
+		Typesofvariable.Variable();
+		Typesofvariable rn= new Typesofvariable();
+		System.out.println("Print rollnumber"+ rn.rollNumber);
+	
+	}
+		
+}
