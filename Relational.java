@@ -2,46 +2,40 @@ package Operator;
 
 public class Relational {
 	
-	public void equalsto() {
-		int a = 10;
-		int b = 20;
+	public void equalsTo(int a,int b) {
+		
 		System.out.println("Value of a==b is "+ (a==b));
 	}
 	
-	public void notequalsto()
+	public void notEqualsto(int a,int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		System.out.println("Value of a!=b is "+ (a!=b));
 		
 	}
 
-	public void greaterthan()
+	public void greaterthan(int a,int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		System.out.println("Value of a<b "+ (a<b));
 	}
 
-	public void lessthan()
+	public void lessthan(int a,int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		System.out.println("Value of a>b "+ (a>b));
 	}
 
-	public void greaterthanequalsto()
+	public void greaterthanequalsto(int a, int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		System.out.println("Value of a<=b is "+(a<=b));
 		
 	}
 
-	public void lessthanequalsto()
+	public void lessthanequalsto(int a,int b)
 	{
-		int a = 10;
-		int b = 20;
+		
 		System.out.println("Value of a>=b is "+(a>=b));
 	}
 
@@ -49,12 +43,12 @@ public class Relational {
 	{
 		
 		Relational i = new Relational();
-		i.equalsto();
-		i.notequalsto();
-		i.greaterthan();
-		i.lessthan();
-		i.greaterthanequalsto();
-		i.lessthanequalsto();
+		i.equalsTo(10,2);
+		i.notEqualsto(22,4);
+		i.greaterthan(1,2);
+		i.lessthan(2,6);
+		i.greaterthanequalsto(6,4);
+		i.lessthanequalsto(4,5);
 		
 	}
 
